@@ -1,0 +1,8 @@
+{
+    "boardsPath": "src/_codux/boards",
+    "buildDir": "package",
+    "libraryName": "My Library",
+    "libraryIcon": "src/assets/icons/icon.png",
+    "packageName": "@elig/codux-library",
+    "packageVersion": "1.0.5"
+}

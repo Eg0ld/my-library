@@ -1,7 +1,7 @@
 {
-  "name": "my-library",
-  "private": true,
-  "version": "1.0.0",
+  "name": "@elig-wix/codux-library",
+  "private": false,
+  "version": "1.0.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,15 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/themes": "^2.0.0",
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
+    "@elig-wix/codux-library": "1.0.6",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
     "@vitejs/plugin-react": "^4.1.0",
+    "@wixc3/codux-librarian": "^0.1.4",
     "@wixc3/react-board": "^2.3.0",
     "sass": "^1.69.4",
     "typescript": "^5.2.2",
